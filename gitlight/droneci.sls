@@ -1,5 +1,6 @@
 {% set drone_version = salt.pillar.get('drone:version', '0.9.0-alpha.2') %}
-docker:
+docker.io:
+  # note: need testing repos enabled
   pkg.installed
 
 get-drone:
