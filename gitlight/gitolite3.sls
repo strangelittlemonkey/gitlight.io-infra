@@ -1,2 +1,2 @@
-include:
-  - sys.pkgs.gitolite
+#include:
+#  - sys.pkgs.gitolite

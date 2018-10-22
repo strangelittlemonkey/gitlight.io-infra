@@ -1,3 +1,3 @@
-include:
-  - sys.pkgs.nginx
-  - sys.pkgs.uwsgi
+#include:
+#  - sys.pkgs.nginx
+#  - sys.pkgs.uwsgi
